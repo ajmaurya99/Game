@@ -1,0 +1,416 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+
+body {
+    margin: 0;
+    background: transparent url(../images/bg-1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    height: 100%;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+body.full-height,
+body.bganimate {
+    height: 100%;
+    height: 100vh;
+}
+
+/*body {
+    max-width: 100%;
+    font-family: 'Luckiest Guy', cursive;
+    height: 100vh;
+    height: 100%;
+}*/
+
+h2.title {
+    color: #ed1c24;
+    text-transform: uppercase;
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+
+p {
+    font-family: 'Luckiest Guy', cursive;
+    color: #ed1c24;
+    font-size: 22px;
+    margin: 10px 10px 0 10px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a, label {
+    color: #ed1c24;
+    font-size: 16px;
+}
+
+button {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.block {
+    display: block;
+}
+
+.add-padding {
+    padding: 10px 0;
+}
+
+.form-wrap {
+    text-align: center;
+    max-width: 620px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.form-wrap .form-header {
+    text-align: center;
+}
+
+.form-wrap .form-header img {
+    max-width: 215px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.form-wrap .form-header .tasty-treat-logo {
+    max-width: 110px;
+}
+
+/*Game Login Form*/
+.form-group {
+    display: block;
+    padding: 8px 0;
+}
+
+.gamingform button {
+    width: 30%;
+    background: #ed1c24;
+    color: #ffffff;
+    border: 2px solid #000;
+    font-size: 25px;
+    -webkit-box-shadow: -3px 3px 3px #ffffff,
+    3px 3px 0 #ffffff,
+    0px 3px 0 #ffffff,
+    1px 0px 0 #ffffff,
+    1px -3px 0 #ffffff;
+    -moz-box-shadow: -3px 3px 3px #ffffff,
+    3px 3px 0 #ffffff,
+    0px 3px 0 #ffffff,
+    1px 0px 0 #ffffff,
+    1px -3px 0 #ffffff;
+    -ms-box-shadow: -3px 3px 3px #ffffff,
+    3px 3px 0 #ffffff,
+    0px 3px 0 #ffffff,
+    1px 0px 0 #ffffff,
+    1px -3px 0 #ffffff;
+    box-shadow: -3px 3px 3px #ffffff,
+    3px 3px 0 #ffffff,
+    0px 3px 0 #ffffff,
+    1px 0px 0 #ffffff,
+    1px -3px 0 #ffffff;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 15px 6px 5px 6px;
+    outline: none;
+}
+
+.chabao-form input {
+    width: 300px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 18px;
+    padding: 8px 15px;
+    outline: none;
+    display: inline-block;
+}
+
+.title {
+    margin: 14px 0;
+    -webkit-text-shadow: 1px 3px 3px #ffffff,
+    3px 3px 0 #ffffff,
+    0px 3px 0 #ffffff,
+    1px 0px 0 #ffffff,
+    1px -3px 0 #ffffff;
+    -moz-text-shadow: 1px 3px 3px #ffffff,
+    3px 3px 0 #ffffff,
+    0px 3px 0 #ffffff,
+    1px 0px 0 #ffffff,
+    1px -3px 0 #ffffff;
+    -ms-text-shadow: 1px 3px 3px #ffffff,
+    3px 3px 0 #ffffff,
+    0px 3px 0 #ffffff,
+    1px 0px 0 #ffffff,
+    1px -3px 0 #ffffff;
+    text-shadow: 1px 3px 3px #ffffff,
+    3px 3px 0 #ffffff,
+    0px 3px 0 #ffffff,
+    1px 0px 0 #ffffff,
+    1px -3px 0 #ffffff;
+}
+
+.gamingform .form-footer span {
+    display: block;
+    font-size: 18px;
+    padding: 15px;
+    text-decoration: underline;
+    color: #ed1c24;
+}
+
+label.error {
+    display: none !important;
+}
+
+input.error {
+    border: 2px solid #ed1c24;
+}
+
+/*media queries*/
+
+/* Valign Middle Design */
+.display-table {
+    display: table;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.table-row {
+    display: table-row;
+    height: 100%;
+    width: 100%;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media all and (max-width: 768px) {
+    .GameForm.display-table {
+        display: block;
+        padding-top: 30px;
+        width: 100%;
+        min-height: 100vh;
+        height: 100%;
+    }
+
+    .GameForm .table-row {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+
+    .GameForm .table-cell {
+        display: block;
+        vertical-align: middle;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .modal-content {
+        width: 90% !important;
+    }
+
+    #score-body tr td {
+        padding-top: 10px !important;
+    }
+
+    .gamingform button {
+        font-size: 25px;
+    }
+
+    .gamingform button {
+        width: 57%;
+    }
+
+    .chabao-form input {
+        width: 70%;
+    }
+}
+
+/*Screen Rotate Image*/
+.rotate-screen {
+    background-image: url("../images/landscape-view.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+@media screen  and (max-width: 768px) and (orientation: landscape) and (min-aspect-ratio: 13/9) {
+    .rotate-screen {
+        display: block !important;
+    }
+}
+
+/* Alertify Override*/
+.alertify.ajs-movable:not(.ajs-maximized) .ajs-header {
+    background: #ed1c24;
+}
+
+.alertify .ajs-footer .ajs-buttons .ajs-button.ajs-ok {
+    background: #5CB811;
+    color: #000;
+    border: 1px solid #3B7808;
+    letter-spacing: 0.9px;
+    font-weight: normal;
+}
+
+.alertify.ajs-closable .ajs-commands button.ajs-close {
+    display: none;
+}
+
+.alertify .ajs-dialog {
+    background: #fbf2f2;
+}
+
+#register-btn,
+#login-btn {
+    cursor: pointer;
+}
+
+/* Modal Style*/
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    margin: 4% auto;
+    width: 40%;
+    box-shadow: 0 5px 8px 0px rgba(0, 0, 0, 0.2), 0 7px 20px 0px rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: 1s;
+}
+
+.modal-body {
+    background: transparent;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.modal-body img {
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.modal-body h4 {
+    color: red;
+    font-size: 29px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.closeBtn {
+    color: #ccc;
+    float: right;
+    font-size: 40px;
+    margin-top: -23px;
+    margin-right: -16px;
+}
+
+.closeBtn:hover, .closeBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes modalopen {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.message-modal .modal-row {
+    color: #fff;
+    margin: 10px;
+    background: #8ccd9f;
+    padding: 10px;
+}
+
+.message-modal .modal-row h4 {
+    text-transform: uppercase;
+    font-size: 22px;
+    margin: 0;
+}
+
+.message-modal .modal-row p {
+    font-size: 21px;
+    margin: 0;
+}
+
+#score-list {
+    width: 70%;
+    margin: 0 auto;
+    color: #ffffff;
+    border-spacing: 0 8px;
+    padding-bottom: 20px;
+}
+
+.user-score {
+    background-color: #ff0000 !important;
+    color: #ffffff;
+}
+
+#score-body {
+    text-align: center;
+    color: #58595b;
+    font-size: 20px;
+}
+
+#score-body tr td {
+    padding: 2%;
+}
+
+.user-score td:first-child {
+    border-right-color: #ffffff !important;
+}
+
+#score-body tr td:first-child {
+    width: 25%;
+    border-right: 2px solid #7f8082;
+    -webkit-border-radius: 15px 0 0 15px;
+    -moz-border-radius: 15px 0 0 15px;
+    border-radius: 15px 0 0 15px;
+}
+
+#score-body tr td:nth-child(2) {
+    /*border-left: 1px solid #7f8082;*/
+    -webkit-border-radius: 0px 15px 15px 0;
+    -moz-border-radius: 0px 15px 15px 0;
+    border-radius: 0px 15px 15px 0;
+}
+
+#score-body tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+#score-body tr:nth-child(odd) {
+    background-color: #ededed;
+}
